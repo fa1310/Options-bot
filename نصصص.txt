@@ -1,0 +1,10 @@
+import telegram
+
+TOKEN = 7742998135:AAHCt0g1AXx-7VOZJhcr6ABpYaRslcmj4T4
+CHAT_ID = '6165828191
+
+bot = telegram.Bot(token=TOKEN)
+
+message = 'هلا تونتي! البوت اشتغل بنجاح.'
+
+bot.send_message(chat_id=CHAT_ID, text=message)
